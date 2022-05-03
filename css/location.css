@@ -1,0 +1,68 @@
+.location {
+  background-image: url("../assets/mobile/image-map.png");
+  background-repeat: no-repeat;
+  background-size: 100% 550px;
+  background-position: top center;
+}
+
+.location .btn {
+  position: relative;
+  left: 5.6rem;
+}
+
+.location .btn::after {
+  content: "";
+  width: 5.6rem;
+  height: 7.2rem;
+  position: absolute;
+  top: 0;
+  left: -5.6rem;
+  background-color: var(--gold);
+  background-image: url("../assets/icon-arrow-left.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 10px 24px;
+}
+
+.our-location {
+  margin-top: 47.8rem;
+  background: var(--almost-black);
+  padding: 4.8rem 1.6rem 5.6rem;
+}
+
+.main-heading {
+  font-family: var(--font-secondary);
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 4.5rem;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+.physical-address {
+  display: block;
+  color: var(--white);
+}
+
+.physical-address.street-address {
+  color: var(--gold);
+  font-family: var(--font-secondary);
+  font-size: 3.2rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+  margin: 4.8rem 0 2rem;
+}
+
+.our-location .paragraph {
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.footer {
+  background: var(--gold);
+}
+
+.footer-heading,
+.footer .paragraph {
+  color: var(--almost-black);
+}
