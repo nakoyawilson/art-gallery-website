@@ -24,8 +24,13 @@ body {
   font-size: 300;
 }
 
-img {
+img,
+svg {
   display: block;
+}
+
+img {
+  width: 100%;
 }
 
 a {
